@@ -45,6 +45,7 @@ header {
   width: 100%;
   display: inline;
   background-color: #242329;
+  
 
 }
 
@@ -497,9 +498,8 @@ h2 {
 .circulo{
   width:60px;
   height:60px;
-  position: absolute;
   margin-top: 2.2em;
-  
+
 }
 h1[id="sobrenos"]{
 
@@ -597,15 +597,17 @@ h1[id="sobrenos"]{
     padding: 8px 17px;
     border-right: 1px solid rgba(0,0,0,0.4);
 }
-.centralizar{
-  display: inline-flex;
-  margin-left: 1em;
-  font-family:  -apple-system;
+
+
+.titulo-sobre-nos{
+
+  padding: 10px;
+  display: flex;
+  
 }
 .circulo{
   width:30px;
   height:30px;
-  position: absolute;
   margin-top: 2.2em;
   
 }

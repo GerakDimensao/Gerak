@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+body[id="especial"] {
+    background-color: black;
+    background-image: url(../Imagens/bandeirasemlogo.png);
+}
+
+
+   .introdução-convite{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    /* TODO: REFAZER A QUESTAO DAS FONTES */
+   }
+   .titulo-convite{
+    color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+   }
+    .descricao-convite{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+    color: white;
+
+    }
+    .texto-descricao{
+    padding: 30px;
+    flex-direction: column  ;
+    color: white;
+
+
+    }
+    .imagem-convite{
+        height: 320px;
+    }
+   .titulo-convite-vip{
+    color: rgb(242, 203, 243);
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+    margin-bottom: 15px;
+   }
+
+   .paragrafo-convite{
+    color: rgb(242, 203, 243);
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 20px;
+    color: white;
+
+   }
+
+   .contamos-sua-presença{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+   }
+
+   @media screen and (max-width: 789px) {
+   
+    body[id="especial"] {
+        background-color: black;
+        background-image: none;
+    }
+
+   }
